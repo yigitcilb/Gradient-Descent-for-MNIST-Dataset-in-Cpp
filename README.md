@@ -34,12 +34,10 @@ $$
 \text{error}_i = \hat{y}_i - y_i
 $$
 
-- Batch gradients:
-
 - Weight gradients:
 
 $$
-\mathbf{grad}_w = \frac{1}{m} \sum_{i=1}^{m} (\hat{y}_i - y_i) \mathbf{x}_i
+\text{grad}_w = \frac{1}{m} \sum_{i=1}^{m} (\hat{y}_i - y_i) \mathbf{x}_i
 $$
 
 - Bias gradient:
