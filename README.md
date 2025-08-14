@@ -36,12 +36,16 @@ $$
 
 - Batch gradients:
 
-$$
-\text{grad}_w = \frac{1}{m} \sum_{i=1}^{m} (\hat{y}_i - y_i) \mathbf{x}_i
-$$
+- Weight gradients:
 
 $$
-\text{grad}_b = \frac{1}{m} \sum_{i=1}^{m} (\hat{y}_i - y_i)
+\mathbf{grad}_w = \frac{1}{m} \sum_{i=1}^{m} (\hat{y}_i - y_i) \mathbf{x}_i
+$$
+
+- Bias gradient:
+
+$$
+grad_b = \frac{1}{m} \sum_{i=1}^{m} (\hat{y}_i - y_i)
 $$
 
 - $m$ → number of samples in the batch  
