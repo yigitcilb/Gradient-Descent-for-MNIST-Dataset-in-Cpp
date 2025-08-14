@@ -39,7 +39,7 @@ $$
 - Weight gradients:
 
 $$
-\mathbf{grad}_w = \frac{1}{m} \sum_{i=1}^{m} (\hat{y}_i - y_i) \mathbf{x}_i)
+\mathbf{grad}_w = \frac{1}{m} \sum_{i=1}^{m} (\hat{y}_i - y_i) \mathbf{x}_i
 $$
 
 - Bias gradient:
